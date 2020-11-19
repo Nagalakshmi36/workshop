@@ -1,16 +1,19 @@
-impiort java.io.*;
+import java.io.*;
 public class TicTacToe
 {
-	public static void main(String args[])
+	static char[] creatingBoard()
 	{
-		TicTacToe tic=new TicTacToe();
-		char[][] board;
-		for(int check=0;check<10;check++)
-		{
-			for(int check2=0;check2<10;check++)
-			{
-				board[check][check2]='';
-			}
-		}
+			char[] board=new char[10];
+				for(int index=1;index<board.length;index++)
+				{
+						board[index];
+				}
+				return board;
 	}
+
+public static void main(String args[])
+{
+	System.out.println("Tic Tac Toe Game");
+	creatingBoard();
 }
+
