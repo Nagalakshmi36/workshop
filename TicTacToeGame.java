@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//UC-1 creating board and initalizing with blank space 
 public class TicTacToeGame {
 	public static char[] createBoard(){
 		char[] board=new char[10];
@@ -8,7 +8,7 @@ public class TicTacToeGame {
 		}
 		return board;
 	}
-
+	//uc-2 usrselection wheter it is o or x
 	public void choosePlayer() {
 		Scanner sc=new Scanner(System.in);
 		char computer='x';
